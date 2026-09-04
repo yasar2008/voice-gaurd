@@ -1,0 +1,23 @@
+# Exclude virtualenvs & dependencies
+.venv/
+venv/
+node_modules/
+frontend/node_modules/
+
+# Exclude Next.js build cache
+frontend/.next/
+frontend/out/
+
+# Exclude heavy model weight checkpoints & raw datasets (>100MB)
+checkpoints/*.safetensors
+checkpoints/*.pth
+checkpoints/*.pt
+checkpoints/*.bin
+data/
+
+# Exclude Jupyter notebooks and dev caches
+notebooks/
+.pytest_cache/
+.ruff_cache/
+scratch/
+tests/
