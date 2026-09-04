@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "voice-guard-ui",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "D:/AI-Powered Real-Time Detection and Prevention of Voice-Cloning Impersonation Attacks/frontend", "run", "dev"],
+      "port": 3000
+    }
+  ]
+}
